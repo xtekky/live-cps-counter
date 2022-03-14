@@ -6,8 +6,10 @@ CPS counter to see your current clicking speed - LIVE -
 ```
 pip install pynput
 ```
+## live cps
+- still developping
 
 ## cps-test
 - This is just a cps test like you can find on the website: https://www.clickspeedtester.com/
 - You get to choose a custom test time
-- 
+
