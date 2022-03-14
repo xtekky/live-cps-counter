@@ -12,10 +12,10 @@ def on_click(x, y, button, pressed):
     listener.stop()
     start = time.time()
     print('- started time -')
-
 with Listener(on_click=on_click) as listener:
     listener.join()
 
+    
 while True:
     def on_click(x, y, button, pressed):
             global raw_clicks
@@ -29,9 +29,6 @@ while True:
                 print(raw_raw/sec, 'cps', end="")
                 raw_clicks = 0
                 start = time.time()
-
-
-
     with Listener(on_click=on_click) as listener:
         listener.join()
 
