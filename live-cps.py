@@ -30,10 +30,3 @@ while True:
 
     with Listener(on_click=on_click) as listener:
         listener.join()
-
-
-
-
-
-
-
